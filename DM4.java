@@ -14,7 +14,7 @@ public class DM4 {
 		System.out.println("Hello, "+name+"!");
 		
 		//Coin toss part
-		System.out.println("Tossing a coin ...");
+		System.out.println("Tossing a coin...");
 		for(int i = 1; i <= 3; i ++) {
 			ram = r.nextInt(2);
 			switch (ram) {
@@ -33,7 +33,7 @@ public class DM4 {
 		//Victory message added
 	        //Won/lost message modified
         	if(cntH>cntT){
-            		System.out.println(name+" win");  
+            		System.out.println(name+" won!");  
         	}else{
             		System.out.println(name+" lose");
         	}
