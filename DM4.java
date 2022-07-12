@@ -7,7 +7,7 @@ public class DM4 {
 		int cntH = 0, cntT = 0;
 
 		//Part to hear the name
-		String nname;
+		String name;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Who are you?");
 		name = sc.next();
@@ -30,11 +30,12 @@ public class DM4 {
 			}
 		}
 		System.out.println("Heads: "+cntH+", Tails: "+cntT);
-	        //You won/Youlose part
+		//Victory message added
+	        //Won/lost message modified
         	if(cntH>cntT){
-            		System.out.println("You won");
+            		System.out.println(name+" win");  
         	}else{
-            		System.out.println("You lose");
+            		System.out.println(name+" lose");
         	}
 	}
 
